@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto;
+    background: #FEFBF1;
 }
 
 .container {
@@ -9,6 +11,7 @@
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
 img{
   max-width: 100%;
 }
@@ -45,4 +48,46 @@ img{
   letter-spacing: 1.6px;
   text-transform: uppercase;
   color: #703412B8;
+=======
+.header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.header_nav {
+    display: flex;
+    gap: 40px;
+}
+
+.header_nav a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    color: #703412;
+}
+
+.business_paragraph {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 44px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #703412;
+    padding-bottom: 21px;
+}
+
+.business_about {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 88px;
+    letter-spacing: 0%;
+    color: #703412;
+    width: 848px;
+    padding-bottom: 123px;
+>>>>>>> 8481d06b9b7db59e75e1e906aebedba5cd9704f4
 }
